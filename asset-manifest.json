@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Spitsynnick/Kanban_Board/static/css/main.76602c54.css",
-    "main.js": "/Spitsynnick/Kanban_Board/static/js/main.1b573f13.js",
+    "main.js": "/Spitsynnick/Kanban_Board/static/js/main.3ff19e45.js",
     "static/media/user_avatar.svg": "/Spitsynnick/Kanban_Board/static/media/user_avatar.efc566f62b82277ca5567cbbf1933c72.svg",
     "index.html": "/Spitsynnick/Kanban_Board/index.html",
     "static/media/user_menu_arrow.svg": "/Spitsynnick/Kanban_Board/static/media/user_menu_arrow.499a81f7058420ec4c251b760054534d.svg",
@@ -9,10 +9,10 @@
     "static/media/little_square.svg": "/Spitsynnick/Kanban_Board/static/media/little_square.9b1e9463a0d58eecb054230cdf46c655.svg",
     "static/media/task_menu_arrow.svg": "/Spitsynnick/Kanban_Board/static/media/task_menu_arrow.157e19ef20c6da73ccf75044dffd1777.svg",
     "main.76602c54.css.map": "/Spitsynnick/Kanban_Board/static/css/main.76602c54.css.map",
-    "main.1b573f13.js.map": "/Spitsynnick/Kanban_Board/static/js/main.1b573f13.js.map"
+    "main.3ff19e45.js.map": "/Spitsynnick/Kanban_Board/static/js/main.3ff19e45.js.map"
   },
   "entrypoints": [
     "static/css/main.76602c54.css",
-    "static/js/main.1b573f13.js"
+    "static/js/main.3ff19e45.js"
   ]
 }
