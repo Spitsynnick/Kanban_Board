@@ -1,0 +1,77 @@
+.add_task_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+}
+
+.add_task_input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 13px; 
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: 18px;        
+}
+
+.add_task_button, .submit_button {
+    width: 102px;
+    height: 29px;
+    color: #5E6C84;     
+    transition: background-color .3s;
+}
+
+.add_task_button:hover {
+    background: #FFFFFF;
+}
+
+.add_task_button:disabled, .add_task_button:disabled:hover, .submit_button:disabled, .submit_button:disabled:hover {
+    background: #FFFFFF;
+    color: #EBECF0;
+    cursor: initial;
+}
+
+.submit_button {
+    transition: all .3s;   
+}
+
+.submit_button:hover {
+    background: #0079BF;
+    color: #FFFFFF;    
+}
+
+.task_menu_btn {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px;
+    background: #FFFFFF;
+}
+
+.task_menu {
+    position: absolute;    
+    top: calc(100% - 9px);
+    width: 92%;
+    background: #FFFFFF; 
+    border-radius: 5px;     
+}
+
+.task_menu_list {
+    padding: 0; 
+    margin: 0;             
+    list-style-type: none;    
+}
+
+.task_menu_item {
+    padding: 8px;
+    border-radius: 5px; 
+    font-size: 18px;
+    line-height: 21px;       
+}
+
+.task_menu_item:hover {
+    background: #DEDEDE;
+    cursor: pointer;
+}

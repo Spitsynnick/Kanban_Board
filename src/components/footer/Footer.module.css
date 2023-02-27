@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px; 
+    padding: 0 20px;
+    background: #0067A3;    
+    font-size: 18px;    
+    color: #FFFFFF;
+}
+
+.tasks_counts {
+    display: flex;    
+}
+
+.tasks_active {
+    margin-right: 58px;
+}
+
+
+@media only screen and (max-width: 920px) {
+    .tasks_active {
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .footer {              
+        background: inherit;            
+    }
+
+    .tasks_counts, .author_paragraph {    
+        display: none;    
+    }
+}
